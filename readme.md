@@ -40,6 +40,8 @@ bun install winston
 bun run lint
 bun run src/index.ts
 
+# auto fix
+bunx eslint . --fix
 ```
 
 
